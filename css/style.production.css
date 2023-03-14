@@ -220,7 +220,7 @@ main {
 }
 
 th, td {
-   border: 2px solid #1ea58a;
+   border: 2px solid #0f3e5a;
    padding: 5px;
 }
 
@@ -248,10 +248,12 @@ th, td {
    }
 }
 
+/* Animtion (inactive)
 #svg66 {
-   -webkit-animation: 1s color-change infinite alternate linear;
-           animation: 1s color-change infinite alternate linear;
+   -webkit-animation: 1s color-change 3 alternate linear;
+           animation: 1s color-change 3 alternate linear;
 }
+*/
 
 /*Contact Styling*/
 

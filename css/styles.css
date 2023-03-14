@@ -185,7 +185,7 @@ main {
 }
 
 th, td {
-   border: 2px solid #1ea58a;
+   border: 2px solid var(--primary-color);
    padding: 5px;
 }
 
@@ -203,9 +203,11 @@ th, td {
    }
 }
 
+/*Animation (inactive)
 #svg66 {
-   animation: 1s color-change infinite alternate linear;
+   animation: 1s color-change 3 alternate linear;
 }
+*/
 
 /*Contact Styling*/
 
